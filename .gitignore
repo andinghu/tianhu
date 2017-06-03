@@ -6,7 +6,4 @@
 *.log
 node_modules
 
-# Webpack
-build
-
 .DS_Store
