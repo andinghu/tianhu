@@ -1,0 +1,36 @@
+@import '../variables';
+
+:local(.content) {
+  align-content: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  opacity: 0.8;
+  padding: 8px;
+
+  &:hover {
+    background-color: #E6E6E6;
+    cursor: zoom-in;
+    opacity: 1;
+  }
+}
+
+:local(.img) {
+  border-radius: 5px;
+  width: 100%;
+}
+
+:local(.title) {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+:local(.picTitle) {
+  color: #211922;
+  font-size: 13px;
+  font-weight: lighter;
+}

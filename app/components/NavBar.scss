@@ -1,0 +1,19 @@
+@import '../variables';
+
+:local(.navBar) {
+  display: flex;
+}
+
+:local(.navIconWrapper) {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  width: 48px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+  }
+}
+

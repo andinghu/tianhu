@@ -1,0 +1,23 @@
+@import '../variables';
+
+:local(.container) {
+  align-items: center;
+  border-bottom: 1px;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+:local(.logo) {
+  padding: 0 16px;
+}
+
+:local(.searchNavBar) {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  width: 100%;
+}

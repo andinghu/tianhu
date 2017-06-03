@@ -1,0 +1,7 @@
+export default {
+  APPEND_BOX: 'vinterest/APPEND_BOX',
+  INIT_COLUMNS: 'vinterest/INIT_COLUMNS',
+  MEASURE_WINDOW: 'vinterest/MEASURE_WINDOW',
+  SET_TOP_SCROLL_POS: 'vinterest/SET_TOP_SCROLL_POS',
+  UPDATE_PLACEHOLDER_TOP: 'vinterest/UPDATE_PLACEHOLDER_TOP',
+};

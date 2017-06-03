@@ -1,0 +1,9 @@
+@import '../variables';
+
+:local(.column) {
+  box-sizing: content-box;
+  display: block;
+  flex-direction: column;
+  float: left;
+  width: 25%;
+}

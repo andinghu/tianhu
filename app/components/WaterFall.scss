@@ -1,0 +1,10 @@
+@import '../global';
+
+:local(.waterfall) {
+  box-sizing: border-box;
+  display: flex;
+  height: 800px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 90%;
+}
